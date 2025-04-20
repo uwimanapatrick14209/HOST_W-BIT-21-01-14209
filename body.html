@@ -1,0 +1,241 @@
+<!-- body.html -->
+<main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Future With Online Learning</h1>
+            <p>Access 2,000+ courses from professional instructors</p>
+            <div class="hero-cta">
+                <a href="/courses" class="cta-button">Browse Courses</a>
+                <a href="/demo" class="cta-button secondary">Free Demo</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-student.jpg" alt="Happy student learning online">
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <h2>Popular Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="images/course-math.jpg" alt="Mathematics Course">
+                <h3>Advanced Mathematics</h3>
+                <p class="instructor">Prof. John Smith</p>
+                <div class="course-meta">
+                    <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                    <span class="price">$49.99</span>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <img src="images/course-coding.jpg" alt="Coding Course">
+                <h3>Web Development Bootcamp</h3>
+                <p class="instructor">Dr. Sarah Johnson</p>
+                <div class="course-meta">
+                    <span class="rating"><i class="fas fa-star"></i> 4.9</span>
+                    <span class="price">$79.99</span>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <img src="images/course-business.jpg" alt="Business Course">
+                <h3>Business Management 101</h3>
+                <p class="instructor">MBA Academy</p>
+                <div class="course-meta">
+                    <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                    <span class="price">$59.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="benefit-card">
+            <i class="fas fa-certificate"></i>
+            <h4>Certified Courses</h4>
+            <p>Industry-recognized certifications upon completion</p>
+        </div>
+        
+        <div class="benefit-card">
+            <i class="fas fa-user-friends"></i>
+            <h4>Expert Instructors</h4>
+            <p>Learn from professionals with real-world experience</p>
+        </div>
+
+        <div class="benefit-card">
+            <i class="fas fa-clock"></i>
+            <h4>Lifetime Access</h4>
+            <p>Revisit course materials anytime, anywhere</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="images/student1.jpg" alt="Student photo">
+                <blockquote>"This platform transformed my career path completely!"</blockquote>
+                <p>- Maria Gonzalez</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <img src="images/student2.jpg" alt="Student photo">
+                <blockquote>"The best investment I've made in my education."</blockquote>
+                <p>- David Chen</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<style>
+    /* Main Content Styles */
+    .main-content {
+        margin-top: 100px; /* Offset for fixed header */
+        padding: 2rem 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4rem 0;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero-content {
+        flex: 1;
+        padding-right: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+        color: #2c3e50;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 2rem;
+    }
+
+    .hero-cta {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hero-image {
+        flex: 1;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Featured Courses */
+    .featured-courses {
+        background: #f9f9f9;
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .course-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .course-card {
+        background: white;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .course-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /* Benefits Section */
+    .benefits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 4rem auto;
+        padding: 0 20px;
+    }
+
+    .benefit-card {
+        text-align: center;
+        padding: 2rem;
+        border: 1px solid #eee;
+        border-radius: 10px;
+    }
+
+    .benefit-card i {
+        font-size: 2.5rem;
+        color: #3498db;
+        margin-bottom: 1rem;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        background: #2c3e50;
+        color: white;
+        padding: 4rem 0;
+    }
+
+    .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .testimonial-card {
+        background: #34495e;
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .testimonial-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .hero {
+            flex-direction: column;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .hero-content {
+            padding-right: 0;
+            margin-bottom: 2rem;
+        }
+        
+        .hero-cta {
+            justify-content: center;
+        }
+    }
+</style>

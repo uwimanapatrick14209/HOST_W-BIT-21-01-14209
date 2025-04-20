@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head> CSS TYPES DEMONSTRATION</head>
+    <title> CAT</title>
+   
+<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c6cb; padding: 10px;">
+    <strong>Inline CSS</strong><br>
+    This div uses inline CSS applied directly to HTML elements using the style attribute.
+  </div>
+
+  <style>
+    .internal-style {
+      background-color: #d1ecf1;
+      color: #0c5460;
+      border: 2px solid #bee5eb;
+      padding: 10px;
+    }
+  </style>
+  ...
+  <div class="internal-style">
+    <strong>Internal CSS</strong><br>
+    This div uses CSS defined in the &lt;style&gt; section of the document header.
+  </div>
+  <link rel="stylesheet" href="styles.css">
+  ...
+  <div class="external-style">
+    <strong>External CSS</strong><br>
+    This div uses CSS from an external stylesheet file (styles.css).
+  </div>
+
+  </html>

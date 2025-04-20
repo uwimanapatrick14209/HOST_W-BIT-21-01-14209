@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotes Block</title>
+    <style>
+        .quote-box {
+            border: 2px solid blue;
+            padding: 10px;
+            width: 600px;
+            margin: 20px auto;
+        }
+
+        .source {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="quote-box">
+    Turns out you have a really fun time if you go to work every day and focus on being silly and funny and happy! - Hannah Murray<br>
+    All you need in this life is ignorance and confidence, and then success is sure. - Mark Twain<br>
+    Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight? They never mention that part to us, do they? - George Carlin<br>
+    Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt<br><br>
+    <a class="source" href="#">Brainy Quote</a>
+</div>
+
+</body>
+</html>
+
+<head>
+    <title>Styled Quotes Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        .quote {
+            padding: 5px;
+            border: 5px solid;
+            font-family: Arial, sans-serif;
+        }
+
+        .quote.orange {
+            border-color: #f1a618;
+        }
+
+        .quote.green {
+            border-color: green;
+        }
+
+        .quote.yellow {
+            border-color: gold;
+        }
+
+        .quote.blue {
+            border-color: blue;
+        }
+
+        .source {
+            grid-column: 1 / span 2;
+            text-align: center;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="quote orange">
+        Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight? 
+        They never mention that part to us, do they? - George Carlin
+    </div>
+
+    <div class="quote green">
+        All you need in this life is ignorance and confidence, and then success is sure. - Mark Twain
+    </div>
+
+    <div class="quote yellow">
+        Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt
+    </div>
+
+    <div class="quote blue">
+        Turns out you have a really fun time if you go to work every day and focus on being silly and funny and happy! - Hannah Murray
+    </div>
+<a class="source" href="#">Brainy Quote</a>
+</div>
+
+</body>
+</html>

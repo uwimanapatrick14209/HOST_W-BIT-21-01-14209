@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Tags Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #007acc;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        b {
+            color: #d35400;
+        }
+
+        i {
+            color: #2980b9;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        ol li {
+            margin: 8px 0;
+        }
+
+        span {
+            color: #16a085;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to my sample page</h1>
+
+    <p>This is a simple HTML document to demonstrate various tags.</p>
+
+    <p>This text includes a <b>bolded phrase</b> and an <i>italicized phrase</i> to highlight important content.</p>
+
+    <ol>
+        <li>First item on the list</li>
+        <li>Second item using a <span>span tag</span> inside</li>
+        <li>Third item is here!</li>
+    </ol>
+
+</body>
+</html>

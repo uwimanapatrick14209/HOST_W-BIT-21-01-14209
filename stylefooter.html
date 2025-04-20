@@ -1,0 +1,131 @@
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>EduMaster</h4>
+            <p>Empowering learners through quality education since 2023</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/courses">All Courses</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/careers">Careers</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/terms">Terms of Service</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Newsletter</h4>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2023 EduMaster. All rights reserved.</p>
+    </div>
+</footer>
+
+<style>
+    /* Footer Styles */
+    .footer {
+        background: #2c3e50;
+        color: #ecf0f1;
+        padding: 4rem 0 2rem;
+        margin-top: 4rem;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 0 20px;
+    }
+
+    .footer-section h4 {
+        color: #3498db;
+        margin-bottom: 1rem;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-section li {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-section a {
+        color: #bdc3c7;
+        text-decoration: none;
+    }
+
+    .footer-section a:hover {
+        color: #3498db;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .social-links a {
+        font-size: 1.5rem;
+        color: #ecf0f1;
+    }
+
+    .newsletter-form input {
+        padding: 0.8rem;
+        border: none;
+        border-radius: 4px;
+        margin-right: 0.5rem;
+        width: 70%;
+    }
+
+    .newsletter-form button {
+        padding: 0.8rem 1.5rem;
+        background: #3498db;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #34495e;
+    }
+
+    @media (max-width: 768px) {
+        .footer-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</body>
+</html>
